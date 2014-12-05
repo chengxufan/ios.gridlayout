@@ -5,6 +5,10 @@
 //  Created by Langwan on 14/12/5.
 //  Copyright (c) 2014年 chengxufan. All rights reserved.
 //
+//  source address: https://github.com/chengxufan/ios.gridlayout
+//  website: http://www.chengxufan.com/
+//  mail: langwan@chengxufan.com
+//
 
 #import <UIKit/UIKit.h>
 #import "CXFLayout.h"

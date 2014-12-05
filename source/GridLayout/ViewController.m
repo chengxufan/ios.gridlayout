@@ -5,6 +5,10 @@
 //  Created by Langwan on 14/11/25.
 //  Copyright (c) 2014年 chengxufan. All rights reserved.
 //
+//  source address: https://github.com/chengxufan/ios.gridlayout
+//  website: http://www.chengxufan.com/
+//  mail: langwan@chengxufan.com
+//
 
 #import "ViewController.h"
 #import "CXFGridView.h"
@@ -72,10 +76,10 @@
     
     row = [[CXFLayoutRow alloc] initWithParams:layout];
     label = [[CXFLabel alloc]initWithParams:row size:CXF_LABEL_SIZES_FULL scene:CXF_LABEL_SCENE_COMMON];
+    
     [label setText:@"https://github.com/chengxufan/ios.gridlayout"];
     label.lineBreakMode = UILineBreakModeWordWrap;
     label.numberOfLines = 0;
-
     label.height = 100.0f;
     label.column.height = 100.0f;
     
