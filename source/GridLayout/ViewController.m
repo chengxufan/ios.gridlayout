@@ -42,7 +42,7 @@
     //CXFLayout* layout = [[CXFLayout alloc] initWithParams:self.view columns:12];
     
     /* custom all params */
-    //CXFLayout* layout = [[CXFLayout alloc] initWithParams:self.view columns:12 lineSpacing:20.0f];
+    //CXFLayout* layout = [[CXFLayout alloc] initWithParams:self.view columns:12 lineSpacing:10.0f];
     
     CXFLayoutRow *row = [[CXFLayoutRow alloc] initWithParams:layout];
     
